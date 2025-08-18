@@ -9,10 +9,9 @@ const Skills = () => {
     {
       title: 'Programming Languages',
       skills: [
-        { name: 'JavaScript (ES6+)', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'Python', level: 80 },
-        { name: 'C++', level: 75 },
+        { name: 'TypeScript', level: 70 },
+        { name: 'C++', level: 70 },
+        { name: 'MongoDB', level: 65 },
       ]
     },
     {

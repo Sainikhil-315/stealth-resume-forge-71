@@ -33,7 +33,6 @@ const Navigation = () => {
     { label: 'Experience', href: '#experience' },
     { label: 'Skills', href: '#skills' },
     { label: 'Projects', href: '#projects' },
-    { label: 'Open Source', href: '#opensource' },
     { label: 'Contact', href: '#contact' },
   ];
 
@@ -72,7 +71,7 @@ const Navigation = () => {
             <span className={`transition-colors duration-300 ${
               isInHero ? 'text-foreground' : 'text-gradient'
             }`}>
-              Ankush
+              Sai Nikhil
             </span>
           </motion.div>
 

@@ -11,7 +11,7 @@ const Experience = () => {
       location: 'Remote',
       period: 'April 2025 - Present',
       description: 'Developing recipe templates for users in a healthcare application that connects users with health coaches and ayurvedic experts. Building features for recipe template verification and validation within the application.',
-      technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'RESTful API'],
+      technologies: ['JavaScript', 'Node.js'],
       achievements: [
         'Developed user-friendly recipe template system',
         'Implemented template verification features',
