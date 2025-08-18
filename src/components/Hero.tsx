@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, Code, Database, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -55,6 +55,30 @@ const Hero = () => {
                 Full-stack developer specializing in MERN stack, delivering scalable web applications. 
                 Passionate about problem-solving and creating innovative solutions.
               </motion.p>
+              
+              <motion.div 
+                className="flex flex-wrap gap-6 text-sm text-muted-foreground"
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+              >
+                <div className="flex items-center gap-2">
+                  <Github className="h-4 w-4 text-primary" />
+                  <span>90+ Contributions</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Database className="h-4 w-4 text-primary" />
+                  <span>19 Repositories</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Code className="h-4 w-4 text-primary" />
+                  <span>95+ LeetCode Problems</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Zap className="h-4 w-4 text-primary" />
+                  <span>1400+ Contest Rating</span>
+                </div>
+              </motion.div>
             </motion.div>
 
             <motion.div
@@ -124,13 +148,23 @@ const Hero = () => {
                   <span className="text-6xl font-playfair font-bold text-gradient">SN</span>
                 </div>
                 
-                {['⚛️', '🔥', '⚡', '🚀'].map((icon, index) => (
+                {[
+                  { icon: '⚛️', label: 'React' },
+                  { icon: '🟢', label: 'Node.js' },
+                  { icon: '🎨', label: 'Tailwind' },
+                  { icon: '⚡', label: 'JavaScript' },
+                  { icon: '🔥', label: 'TypeScript' },
+                  { icon: '🍃', label: 'MongoDB' },
+                  { icon: '🚀', label: 'Express' },
+                  { icon: '💻', label: 'Full Stack' }
+                ].map((item, index) => (
                   <motion.div
-                    key={icon}
+                    key={item.label}
                     className="absolute w-12 h-12 rounded-full glass-effect flex items-center justify-center text-xl"
                     style={{
-                      top: `${20 + Math.sin(index * Math.PI / 2) * 40}%`,
-                      left: `${20 + Math.cos(index * Math.PI / 2) * 40}%`,
+                      top: `${50 + Math.sin((index * 2 * Math.PI) / 8) * 35}%`,
+                      left: `${50 + Math.cos((index * 2 * Math.PI) / 8) * 35}%`,
+                      transform: 'translate(-50%, -50%)'
                     }}
                     animate={{
                       y: [0, -10, 0],
@@ -139,11 +173,12 @@ const Hero = () => {
                     transition={{
                       duration: 3,
                       repeat: Infinity,
-                      delay: index * 0.5,
+                      delay: index * 0.3,
                       ease: 'easeInOut'
                     }}
+                    title={item.label}
                   >
-                    {icon}
+                    {item.icon}
                   </motion.div>
                 ))}
               </motion.div>
