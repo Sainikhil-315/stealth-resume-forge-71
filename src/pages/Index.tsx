@@ -65,7 +65,7 @@ const Index = () => {
       <footer className="py-8 border-t border-border/20">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2024 Ankush. Built with React, TypeScript, and lots of ☕
+            © 2024 Sai Nikhil Mullapudi. Built with React, TypeScript, and lots of ☕
           </p>
         </div>
       </footer>

@@ -6,10 +6,10 @@ const About = () => {
   const statsRef = useRef<HTMLDivElement>(null);
 
   const stats = [
-    { number: 50, suffix: '+', label: 'Projects Completed' },
-    { number: 3, suffix: '+', label: 'Years Experience' },
-    { number: 100, suffix: '+', label: 'Open Source Contributions' },
-    { number: 15, suffix: '+', label: 'Technologies Mastered' },
+    { number: 3, suffix: '+', label: 'Major Projects' },
+    { number: 2, suffix: '', label: 'Hackathon Wins' },
+    { number: 9.5, suffix: '', label: 'CGPA' },
+    { number: 10, suffix: '+', label: 'Technologies Mastered' },
   ];
 
   return (
@@ -35,9 +35,9 @@ const About = () => {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   viewport={{ once: true }}
                 >
-                  I'm a passionate full stack developer with a love for creating 
-                  innovative digital solutions. My journey in web development began 
-                  over 3 years ago, and I've been constantly learning and evolving ever since.
+                  I'm currently pursuing B.Tech in Artificial Intelligence & Data Science 
+                  at SRKR Engineering College, Bhimavaram with a CGPA of 9.50/10.0. 
+                  My passion for full-stack development drives me to create innovative solutions.
                 </motion.p>
                 
                 <motion.p
@@ -46,9 +46,9 @@ const About = () => {
                   transition={{ duration: 0.6, delay: 0.4 }}
                   viewport={{ once: true }}
                 >
-                  I specialize in modern web technologies including React, Node.js, 
-                  TypeScript, and cloud platforms. I believe in writing clean, 
-                  maintainable code and contributing to the open source community.
+                  I specialize in the MERN stack and have proven my skills through hackathon 
+                  victories, including 1st place at Brain O Vision MERN Stack Hackathon. 
+                  I'm experienced in Python, JavaScript, TypeScript, and modern web technologies.
                 </motion.p>
                 
                 <motion.p
@@ -57,9 +57,9 @@ const About = () => {
                   transition={{ duration: 0.6, delay: 0.6 }}
                   viewport={{ once: true }}
                 >
-                  When I'm not coding, you'll find me exploring new technologies, 
-                  contributing to open source projects, or sharing my knowledge 
-                  through blog posts and community engagement.
+                  Currently working as a Frontend Developer Intern at HealMeRight, 
+                  developing healthcare applications and recipe template systems. 
+                  I believe in delivering scalable web applications with clean, maintainable code.
                 </motion.p>
               </div>
             </motion.div>

@@ -42,8 +42,8 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
               >
-                <span className="block text-gradient">Full Stack</span>
-                <span className="block">Developer</span>
+                <span className="block text-gradient">Sai Nikhil</span>
+                <span className="block">Mullapudi</span>
               </motion.h1>
               
               <motion.p 
@@ -52,8 +52,8 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                Crafting exceptional digital experiences with modern technologies. 
-                Passionate about clean code, innovative solutions, and open source contributions.
+                Full-stack developer specializing in MERN stack, delivering scalable web applications. 
+                Passionate about problem-solving and creating innovative solutions.
               </motion.p>
             </motion.div>
 
@@ -121,7 +121,7 @@ const Hero = () => {
                 />
                 
                 <div className="absolute inset-8 rounded-full bg-gradient-to-br from-card via-accent to-muted glass-effect flex items-center justify-center">
-                  <span className="text-6xl font-playfair font-bold text-gradient">A</span>
+                  <span className="text-6xl font-playfair font-bold text-gradient">SN</span>
                 </div>
                 
                 {['⚛️', '🔥', '⚡', '🚀'].map((icon, index) => (

@@ -5,54 +5,36 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A modern e-commerce platform built with React, Node.js, and Stripe integration. Features include real-time inventory management, secure payments, and admin dashboard.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
+      title: 'Recipe Sharing Platform',
+      description: 'A comprehensive web application that enables users to search for recipes based on ingredients and cuisine preferences. Implemented user profile management and recipe creation functionality with ingredient-based search and step-by-step cooking instructions.',
+      tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'RESTful API'],
       image: '/placeholder.svg',
       github: '#',
       demo: '#',
       featured: true
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, team collaboration features, and advanced filtering capabilities.',
-      tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Socket.io'],
+      title: 'Telemedicine Chatbot & Appointment System',
+      description: 'Created a web-based chatbot for real-time medical consultation, health advice, and appointment scheduling. Developed symptom analysis functionality to provide users with preliminary health guidance and integrated appointment booking system.',
+      tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io'],
       image: '/placeholder.svg',
       github: '#',
       demo: '#',
       featured: true
     },
     {
-      title: 'Portfolio Website',
-      description: 'A responsive portfolio website with smooth animations, dark mode support, and optimized performance.',
-      tech: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
+      title: 'Movie Discovery Platform (CineSphere)',
+      description: 'Built a comprehensive platform for discovering movies through search functionality and browsing categorized listings. Implemented detailed movie information displays, trailer integration, and personalized watchlist creation with an intuitive user interface.',
+      tech: ['React', 'JavaScript', 'CSS3', 'Movie API', 'Responsive Design'],
       image: '/placeholder.svg',
       github: '#',
       demo: '#',
       featured: false
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A beautiful weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics.',
-      tech: ['Vue.js', 'Chart.js', 'OpenWeather API', 'SCSS'],
-      image: '/placeholder.svg',
-      github: '#',
-      demo: '#',
-      featured: false
-    },
-    {
-      title: 'Chat Application',
-      description: 'Real-time chat application with file sharing, emoji support, and group chat functionality.',
-      tech: ['React', 'Socket.io', 'Express.js', 'MongoDB'],
-      image: '/placeholder.svg',
-      github: '#',
-      demo: '#',
-      featured: false
-    },
-    {
-      title: 'Blog Platform',
-      description: 'A modern blog platform with markdown support, SEO optimization, and social sharing capabilities.',
-      tech: ['Gatsby', 'GraphQL', 'Contentful', 'Netlify'],
+      title: 'Quotation Generator',
+      description: 'Winner of 1st place at Brain O Vision MERN Stack Hackathon. A web application for generating and managing business quotations with dynamic pricing and client management features.',
+      tech: ['MongoDB', 'Express.js', 'React', 'Node.js'],
       image: '/placeholder.svg',
       github: '#',
       demo: '#',

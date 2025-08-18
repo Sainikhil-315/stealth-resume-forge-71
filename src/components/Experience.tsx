@@ -6,58 +6,16 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Innovations Inc.',
-      location: 'San Francisco, CA',
-      period: '2022 - Present',
-      description: 'Led development of scalable web applications using React, Node.js, and AWS. Mentored junior developers and implemented CI/CD pipelines.',
-      technologies: ['React', 'TypeScript', 'Node.js', 'AWS', 'MongoDB'],
-      achievements: [
-        'Improved application performance by 40%',
-        'Led team of 5 developers',
-        'Implemented microservices architecture'
-      ]
-    },
-    {
-      id: 2,
-      title: 'Full Stack Developer',
-      company: 'Digital Solutions LLC',
-      location: 'New York, NY',
-      period: '2020 - 2022',
-      description: 'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create responsive user interfaces.',
-      technologies: ['React', 'Express.js', 'PostgreSQL', 'Docker'],
-      achievements: [
-        'Delivered 15+ successful projects',
-        'Reduced deployment time by 60%',
-        'Improved code quality with testing frameworks'
-      ]
-    },
-    {
-      id: 3,
-      title: 'Frontend Developer',
-      company: 'Creative Web Studio',
-      location: 'Austin, TX',
-      period: '2019 - 2020',
-      description: 'Focused on creating engaging user experiences and responsive web designs. Worked closely with UX designers to implement pixel-perfect interfaces.',
-      technologies: ['JavaScript', 'CSS3', 'Vue.js', 'Sass'],
-      achievements: [
-        'Converted 20+ designs to code',
-        'Improved mobile responsiveness',
-        'Implemented accessibility standards'
-      ]
-    },
-    {
-      id: 4,
-      title: 'Junior Developer',
-      company: 'StartUp Ventures',
+      title: 'Frontend Developer Intern',
+      company: 'HealMeRight',
       location: 'Remote',
-      period: '2018 - 2019',
-      description: 'Started my professional journey building web applications and learning best practices. Contributed to various startup projects and gained experience in agile development.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+      period: 'April 2025 - Present',
+      description: 'Developing recipe templates for users in a healthcare application that connects users with health coaches and ayurvedic experts. Building features for recipe template verification and validation within the application.',
+      technologies: ['React', 'JavaScript', 'HTML5', 'CSS3', 'RESTful API'],
       achievements: [
-        'Built first production application',
-        'Learned agile methodologies',
-        'Contributed to open source projects'
+        'Developed user-friendly recipe template system',
+        'Implemented template verification features',
+        'Enhanced user experience in healthcare application'
       ]
     }
   ];

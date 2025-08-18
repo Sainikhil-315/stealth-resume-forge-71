@@ -43,19 +43,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'ankush@example.com',
-      href: 'mailto:ankush@example.com'
+      value: 'sainikkilmullapudi1604@gmail.com',
+      href: 'mailto:sainikkilmullapudi1604@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 7093647471',
+      href: 'tel:+917093647471'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'New York, NY',
+      value: 'Bhimavaram, Andhra Pradesh',
       href: '#'
     }
   ];

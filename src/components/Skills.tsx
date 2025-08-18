@@ -7,33 +7,42 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Programming Languages',
       skills: [
-        { name: 'React', level: 95 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Next.js', level: 85 },
-        { name: 'Tailwind CSS', level: 95 },
-        { name: 'Framer Motion', level: 80 },
+        { name: 'JavaScript (ES6+)', level: 90 },
+        { name: 'TypeScript', level: 85 },
+        { name: 'Python', level: 80 },
+        { name: 'C++', level: 75 },
       ]
     },
     {
-      title: 'Backend',
+      title: 'Frontend Technologies',
       skills: [
-        { name: 'Node.js', level: 90 },
+        { name: 'React', level: 90 },
+        { name: 'HTML5', level: 95 },
+        { name: 'CSS3', level: 90 },
+        { name: 'Bootstrap', level: 85 },
+        { name: 'Tailwind CSS', level: 90 },
+      ]
+    },
+    {
+      title: 'Backend & Databases',
+      skills: [
+        { name: 'Node.js', level: 85 },
         { name: 'Express.js', level: 85 },
         { name: 'MongoDB', level: 80 },
-        { name: 'PostgreSQL', level: 75 },
-        { name: 'GraphQL', level: 70 },
+        { name: 'MySQL', level: 75 },
+        { name: 'Oracle', level: 70 },
       ]
     },
     {
       title: 'Tools & Others',
       skills: [
-        { name: 'Git', level: 95 },
-        { name: 'Docker', level: 80 },
-        { name: 'AWS', level: 75 },
-        { name: 'Figma', level: 85 },
-        { name: 'Jest', level: 80 },
+        { name: 'Git', level: 90 },
+        { name: 'GitHub', level: 90 },
+        { name: 'Docker', level: 75 },
+        { name: 'Postman', level: 85 },
+        { name: 'Thunder Client', level: 80 },
       ]
     }
   ];
@@ -56,7 +65,7 @@ const Skills = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
